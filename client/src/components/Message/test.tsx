@@ -11,11 +11,11 @@ describe('<Message />', () => {
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         background-color: #c3e88d;
-        border-radius: 3px;
-        border: 1px solid #82be27;
+        border-radius: 0.3em;
+        border: 0.1em solid #82be27;
         display: inline-block;
         font-size: 1.6em;
-        padding: 5px 10px;
+        padding: 0.5em 1em;
         width: 80%;
       }
 
@@ -37,11 +37,11 @@ describe('<Message />', () => {
     expect(screen.getByText('Hello there!')).toMatchInlineSnapshot(`
       .c0 {
         background-color: #89ddff;
-        border-radius: 3px;
-        border: 1px solid #1abeff;
+        border-radius: 0.3em;
+        border: 0.1em solid #1abeff;
         display: inline-block;
         font-size: 1.6em;
-        padding: 5px 10px;
+        padding: 0.5em 1em;
         width: 80%;
       }
 

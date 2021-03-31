@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.button`
   background-color: #283350;
@@ -8,4 +9,8 @@ export const Wrapper = styled.button`
   cursor: pointer;
   font-weight: bold;
   padding: 0.5em 1.5em;
+
+  ${media.greaterThan('medium')`
+    width: 13em;
+  `}
 `

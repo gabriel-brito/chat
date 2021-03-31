@@ -19,6 +19,12 @@ describe('<Button />', () => {
         padding: 0.5em 1.5em;
       }
 
+      @media (min-width:768px) {
+        .c0 {
+          width: 13em;
+        }
+      }
+
       <button
         class="c0"
       >

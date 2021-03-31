@@ -11,6 +11,7 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/img/chat-icon.ico" />
         <link rel="apple-touch-icon" href="/img/chat-icon.ico" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#06092B" />
         <meta
           name="description"

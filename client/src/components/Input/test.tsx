@@ -28,7 +28,7 @@ describe('<Input />', () => {
     const { container } = render(<Input iSNicknameInput />)
 
     expect(screen.getByLabelText('Input')).toHaveStyle({
-      backgroundColor: '#283350'
+      width: '6em'
     })
 
     expect(container.firstChild).toMatchSnapshot()
