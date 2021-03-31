@@ -5,7 +5,8 @@ export default {
   title: 'Message',
   component: Message,
   args: {
-    children: 'Hello there!'
+    children: 'Hello there!',
+    fromUser: true
   }
 } as Meta
 

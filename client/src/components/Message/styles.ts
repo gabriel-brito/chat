@@ -9,5 +9,6 @@ export const Wrapper = styled.p<MessageProps>`
     display: inline-block;
     font-size: 1.6em;
     padding: 5px 10px;
+    width: 80%;
   `}
 `
