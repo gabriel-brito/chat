@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render the input by default and match snapshot 1`] = `
+.c0 {
+  border-radius: 0.3em;
+  outline: none;
+  padding: 0.5em;
+}
+
+<input
+  aria-label="Input"
+  class="c0"
+  placeholder="Type here to chat"
+/>
+`;
+
+exports[`<Input /> should render the nickname input and match snapshot 1`] = `
+.c0 {
+  border-radius: 0.3em;
+  outline: none;
+  padding: 0.5em;
+  border: none;
+  background-color: #283350;
+  color: white;
+  width: 8em;
+}
+
+.c0::-webkit-input-placeholder {
+  color: white;
+  font-weight: 600;
+  opacity: 1;
+  text-align: center;
+}
+
+.c0::-moz-placeholder {
+  color: white;
+  font-weight: 600;
+  opacity: 1;
+  text-align: center;
+}
+
+.c0:-ms-input-placeholder {
+  color: white;
+  font-weight: 600;
+  opacity: 1;
+  text-align: center;
+}
+
+.c0::placeholder {
+  color: white;
+  font-weight: 600;
+  opacity: 1;
+  text-align: center;
+}
+
+<input
+  aria-label="Input"
+  class="c0"
+  placeholder="Type here to chat"
+/>
+`;
