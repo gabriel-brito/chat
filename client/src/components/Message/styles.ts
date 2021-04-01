@@ -8,7 +8,9 @@ export const Wrapper = styled.p<MessageProps>`
     border: ${fromUser ? '0.1em solid #82be27' : '0.1em  solid #1abeff'};
     display: inline-block;
     font-size: 1.6em;
+    max-width: 80%;
     padding: 0.5em 1em;
-    width: 80%;
+    width: auto;
+    word-break: break-all;
   `}
 `

@@ -1,14 +1,9 @@
 import Message from 'components/Message'
+import { MessageProps } from 'templates/Home'
 import * as S from './styles'
 
-type mockMessageProps = {
-  message: string
-  user: string
-  id: string
-}
-
 export type ScreenProps = {
-  messages?: mockMessageProps[]
+  messages?: MessageProps[]
   userId?: string
 }
 

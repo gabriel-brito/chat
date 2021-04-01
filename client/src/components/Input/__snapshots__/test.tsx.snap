@@ -9,6 +9,12 @@ exports[`<Input /> should render the input by default and match snapshot 1`] = `
   padding: 0.5em;
 }
 
+@media (max-width:450px) {
+  .c0 {
+    width: 12.7em;
+  }
+}
+
 @media (min-width:768px) {
   .c0 {
     width: 85%;
@@ -19,6 +25,7 @@ exports[`<Input /> should render the input by default and match snapshot 1`] = `
   aria-label="Input"
   class="c0"
   placeholder="Type here to chat"
+  value=""
 />
 `;
 
@@ -32,7 +39,6 @@ exports[`<Input /> should render the nickname input and match snapshot 1`] = `
   border-radius: 0.3em 0 0 0.3em;
   border-right: none;
   border-left: 0.1em solid black;
-  color: white;
   cursor: pointer;
   margin-right: -0.1em;
   width: 6em;
@@ -66,21 +72,18 @@ exports[`<Input /> should render the nickname input and match snapshot 1`] = `
   text-align: center;
 }
 
-@media (min-width:768px) {
-  .c0 {
-    width: 85%;
-  }
+@media (max-width:450px) {
+
 }
 
 @media (min-width:768px) {
-  .c0 {
-    width: 6em;
-  }
+
 }
 
 <input
   aria-label="Input"
   class="c0"
   placeholder="Type here to chat"
+  value=""
 />
 `;

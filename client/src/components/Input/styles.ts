@@ -7,14 +7,9 @@ const wrapperModifier = {
     border-radius: 0.3em 0 0 0.3em;
     border-right: none;
     border-left: 0.1em solid black;
-    color: white;
     cursor: pointer;
     margin-right: -0.1em;
     width: 6em;
-
-    ${media.greaterThan('medium')`
-      width: 6em;
-    `}
 
     &::placeholder {
       color: black;
@@ -33,8 +28,12 @@ export const Wrapper = styled.input<Omit<InputProps, 'keyBoardFunc'>>`
     outline: none;
     padding: 0.5em;
 
+    ${media.lessThan('small')`
+      width: ${!iSNicknameInput && '12.7em'};
+    `}
+
     ${media.greaterThan('medium')`
-      width: 85%;
+      width: ${!iSNicknameInput && '85%'};
     `}
 
     ${iSNicknameInput && wrapperModifier['nickname']}

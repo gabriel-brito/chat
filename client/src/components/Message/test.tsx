@@ -15,8 +15,10 @@ describe('<Message />', () => {
         border: 0.1em solid #82be27;
         display: inline-block;
         font-size: 1.6em;
+        max-width: 80%;
         padding: 0.5em 1em;
-        width: 80%;
+        width: auto;
+        word-break: break-all;
       }
 
       <p
@@ -41,8 +43,10 @@ describe('<Message />', () => {
         border: 0.1em solid #1abeff;
         display: inline-block;
         font-size: 1.6em;
+        max-width: 80%;
         padding: 0.5em 1em;
-        width: 80%;
+        width: auto;
+        word-break: break-all;
       }
 
       <p

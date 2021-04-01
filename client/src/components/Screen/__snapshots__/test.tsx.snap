@@ -12,7 +12,7 @@ exports[`<Screen /> should render the Screen and match Snapshot 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
   padding: 1em;
   width: 100%;
 }

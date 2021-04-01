@@ -3,16 +3,20 @@ import media from 'styled-media-query'
 
 export const HomeWrapper = styled.main`
   margin: 0 auto;
-  max-width: 136.8em;
+  max-width: 196em;
   height: 100vh;
 `
 
 export const ChatWrapper = styled.div`
-  height: 100%;
-  position: relative;
-  width: 100%;
+  border-left: 0.1em solid black;
+  border-right: 0.1em solid black;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 80em;
+  position: relative;
+  width: 100%;
 `
 
 export const ChatFooter = styled.div`

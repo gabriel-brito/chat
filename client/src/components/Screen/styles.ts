@@ -7,7 +7,7 @@ export const Wrapper = styled.ul`
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
   padding: 1em;
   width: 100%;
 `
