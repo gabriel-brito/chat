@@ -3324,13 +3324,6 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/engine.io@*":
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/@types/engine.io/-/engine.io-3.1.5.tgz#ed280bec61d6226c0bfcb03f2820c4e65391dac2"
-  integrity sha512-DLVpLEGTEZGBXOYoYoagHSxXkDHONc0fZouF2ayw7Q18aRu1Afwci+1CFKvPpouCUOVWP+dmCaAWpQjswe7kpg==
-  dependencies:
-    "@types/node" "*"
-
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -3592,21 +3585,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
-"@types/socket.io-parser@*":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@types/socket.io-parser/-/socket.io-parser-2.2.1.tgz#dc94aed303839487f4975249a32a548109ea3647"
-  integrity sha512-+JNb+7N7tSINyXPxAJb62+NcpC1x/fPn7z818W4xeNCdPTp6VsO/X8fCsg6+ug4a56m1v9sEiTIIUKVupcHOFQ==
-  dependencies:
-    "@types/node" "*"
-
-"@types/socket.io@^2.1.13":
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/@types/socket.io/-/socket.io-2.1.13.tgz#b6d694234e99956c96ff99e197eda824b6f9dc48"
-  integrity sha512-JRgH3nCgsWel4OPANkhH8TelpXvacAJ9VeryjuqCDiaVDMpLysd6sbt0dr6Z15pqH3p2YpOT3T1C5vQ+O/7uyg==
-  dependencies:
-    "@types/engine.io" "*"
-    "@types/node" "*"
-    "@types/socket.io-parser" "*"
+"@types/socket.io-client@^1.4.36":
+  version "1.4.36"
+  resolved "https://registry.yarnpkg.com/@types/socket.io-client/-/socket.io-client-1.4.36.tgz#e4f1ca065f84c20939e9850e70222202bd76ff3f"
+  integrity sha512-ZJWjtFBeBy1kRSYpVbeGYTElf6BqPQUkXDlHHD4k/42byCN5Rh027f4yARHCink9sKAkbtGZXEAmR0ZCnc2/Ag==
 
 "@types/source-list-map@*":
   version "0.1.2"
