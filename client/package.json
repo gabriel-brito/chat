@@ -24,7 +24,9 @@
     "next-pwa": "^5.0.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "socket.io-client": "2.2.0",
     "styled-components": "5.2.1",
+    "styled-icons": "^10.31.0",
     "styled-media-query": "^2.1.2",
     "uuid": "^8.3.2"
   },

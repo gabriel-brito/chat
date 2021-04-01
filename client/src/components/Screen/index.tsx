@@ -4,13 +4,13 @@ import * as S from './styles'
 
 export type ScreenProps = {
   messages?: MessageProps[]
-  userId?: string
+  nickname?: string
 }
 
-const Screen = ({ messages, userId }: ScreenProps) => (
+const Screen = ({ messages, nickname }: ScreenProps) => (
   <S.Wrapper>
-    {messages?.map(({ message, id, user }, index) => {
-      const isFromUser = id === userId
+    {messages?.map(({ message, user }, index) => {
+      const isFromUser = nickname === user
 
       return (
         <S.MessageWrapper fromUser={isFromUser} key={index}>
